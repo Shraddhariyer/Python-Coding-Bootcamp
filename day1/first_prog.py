@@ -1,0 +1,13 @@
+#variable
+#string
+name="rahul"
+print(name)
+#integer
+a=10
+print(a)
+#float
+b=10.0
+print(b)
+#bool
+c=True
+print(c)
