@@ -1,0 +1,2 @@
+Title:Day 6 Notes
+Today we learned strings and file handling..
