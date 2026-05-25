@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> EXPENSE TRACKER</h1>
+    <form method="POST">
+        <lable>CATEGORY:</lable>
+        <input type="text" name="category">
+        <lable>AMOUNT:</lable>
+        <input type="number" name="amount">
+        <lable>DATE:</lable>
+        <input type="text" name="date">
+        <button type="submit">ADD EXPENSE</button>
+    </form>
+    <h2> SAVED EXPENSES</h2>
+    <ul> {%for ex in expense%}
+    <li>{{expense [1]}}
+        {{expense [2]}}
+        {{expense [3]}}
+    </li>
+    {%endfor%}
+</body>
+</html>
