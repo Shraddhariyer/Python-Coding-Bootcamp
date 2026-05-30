@@ -4,7 +4,8 @@ quotes=[
     "Happiness is the key to success.",
     "Consistency is the key.",
     "Never give up.",
-    "Believe in yourself."
+    "Believe in yourself.",
+    "Dream Big, Start Small."
 ]
 
 quote=random.choice(quotes)
